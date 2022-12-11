@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    background-image: url('../images/bg5.jpg');
+    background-size: cover;
+  }
+  .nav{
+    overflow: hidden;
+    background-color: rgb(222, 216, 207);
+    line-height: 160%;
+  }
+  
+  .nav a {
+    float: left;
+    display: block;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    background-color: #c0c0c0;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 0;
+  }
+  
+  .nav a:hover {
+    color: rgb(49, 39, 183);
+  }
+  
+  .nav a.active {
+    background-color: #1d4881;
+    color : rgb(255, 255, 255);
+    font-weight: bold;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+  .nav a.active:hover {
+    background-color: #9bc1da;
+    color : rgb(0, 0, 0);
+  }
+  
+  .container {
+    border:3px solid rgb(17, 17, 17);
+    background-color: #ffffff;
+    width: 700px;
+    /* width: 80vw;
+    max-width: 37.5em; */
+    padding: 2em 2em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.62em;
+    box-shadow: 0 1.25em 1.8em rgba(24, 19, 2, 0.25);
+  }
+  .bg-search {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 3em;
+  }
+  .bg-search button {
+    font-size: 1em;
+    background-color: #1d4881;
+    color: #ffffff;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+  }
+  .bg-search input {
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    border-bottom: 2px solid #8a9bd4;
+    outline: none;
+    color: #222a43;
+  }
+  .container .flag-img {
+    align-items: center;
+    display: block;
+    width: 45%;
+    margin: 1.8em auto 1.2em auto;
+  }
+  .container h1{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  .container h2 {
+    font-weight: 600;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+  }
+  .data-wrapper {
+    margin-bottom: 0.5em;
+    letter-spacing: 0.3px;
+  }
+  .container h4 {
+    display: inline;
+    font-weight:300;
+    color: #222a43;
+  }
+  .container span {
+    color: #5d6274;
+  }
+  .bg-search h3 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ff465a;
+  }
+  

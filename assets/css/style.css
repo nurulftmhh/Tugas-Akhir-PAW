@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-image: url('../images/bg5.jpg');
+    background-size: cover;
+  }
+
+  .nav{
+    overflow: hidden;
+    background-color: rgb(222, 216, 207);
+    line-height: 160%;
+  }
+  
+  .nav a {
+    float: left;
+    display: block;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    background-color: #c0c0c0;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 0;
+  }
+  
+  .nav a:hover {
+    color: rgb(49, 39, 183);
+  }
+  
+  .nav a.active {
+    background-color: #1d4881;
+    color : rgb(255, 255, 255);
+    font-weight: bold;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+  .nav a.active:hover {
+    background-color: #9bc1da;
+    color : rgb(0, 0, 0);
+  }
+
+  .content{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .content h1{
+    color: #c0c0c0;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    font-size: 45px;
+    text-shadow: 3px 2px 1px rgb(39, 39, 39);
+  }
+
+  .content p{
+    font-weight: 500;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: #f8f8f8;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+  }
+
+  .content hr{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 50%;
+  }
